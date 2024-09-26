@@ -11,9 +11,11 @@ const UserDetails = () => {
       <div>
         <h2>Details About user</h2>
         <div style={userStyle}>
-          <h1>{user.name}</h1>
-          <p>{user.email}</p>
-          <p>{user.website}</p>
+          <p>User ID: {user.id}</p>
+
+          <h1>Name: {user.name}</h1>
+          <p>Email: {user.email}</p>
+          <p>phone: {user.website}</p>
         </div>
       </div>
     );
