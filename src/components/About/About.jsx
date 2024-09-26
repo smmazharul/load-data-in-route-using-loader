@@ -1,9 +1,10 @@
+import FormSubmit from "../FormSubmit/FormSubmit";
 
 
 const About = () => {
     return (
         <div>
-            <h1>this is about components</h1>
+            <FormSubmit></FormSubmit>
         </div>
     );
 };
